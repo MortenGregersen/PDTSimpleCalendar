@@ -23,7 +23,7 @@ typedef NS_ENUM (NSInteger, PDTSimpleCalendarViewWeekdayTextType) {
  *  Init with calendar
  *
  *  @param calendar the calendar used to generate the view.
- *  @param textType
+ *  @param textType the text type used to generate the view.
  */
 - (id)initWithCalendar:(NSCalendar *)calendar weekdayTextType:(PDTSimpleCalendarViewWeekdayTextType)textType;
 
